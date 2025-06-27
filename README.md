@@ -1,44 +1,39 @@
-# D & D' Operators — Eridanus Supervoid
 
-This repository provides all scripts and sample data used in the research note titled:
+# Elastic Dynamics in Voids: D and D′ Operators in the Eridanus Supervoid
 
-**"Elastic Dynamics in Voids: Visualization of D and D′ Operators in Underdense Cosmology"**
+This repository contains the core scripts, figures, and supplementary materials used in the research note:
 
-## Contents
+**“Elastic Dynamics in Voids: Visualization of D and D′ Operators in Underdense Cosmology”**  
+_Accepted Manuscript – AAS Research Notes – Manuscript ID: AAS66654_
 
-- `scripts/` — Python scripts for generating and analyzing the radial density profile of the Eridanus Supervoid.
-- `data/` — Sample datasets and model profiles used in the computation.
-- `figures/` — Optional visualization outputs (not included in AAS submission).
-- `notebooks/` — Future expansion area for interactive demonstrations.
-
-## Main Features
-
-- Implements the $D$ (causal derivative) and $D'$ (conformal adjoint) operators.
-- Models a realistic radial density profile based on Eridanus.
-- Includes operator visualization logic (matplotlib-based).
-- Fully documented and reproducible.
-
-## Usage
-
-Clone the repository and run:
-
-```bash
-python scripts/generate_eridanus_density_model.py
-```
-
-For D and D′ operators:
-
-```bash
-python scripts/operator_D.py
-python scripts/operator_Dprime.py
-```
-
-## Citation
-
-If you use this code or dataset, please cite the Research Note:
-
-Seriacopi, L. (2025). *Elastic Dynamics in Voids: Visualization of D and D′ Operators in Underdense Cosmology*. AAS Research Notes.
+📄 **Main PDF**: [Link pending publication]  
+🔗 **Published DOI**: To be added post-acceptance
 
 ---
 
-This repository is provided under the **CC BY 4.0** license.
+## 🗂 Repository Structure
+
+- `Scripts/` — Python scripts used to compute the operators $D$ and $D'$ based on the density profile.
+- `Figures/` — All generated figures used in the analysis and manuscript.
+- `Paper/` — Source files and compiled PDF for the final manuscript.
+- `Data/` — Contains raw data extraction scripts for the Eridanus SDSS sample.
+
+---
+
+## 📌 Summary
+
+The scripts in this repository implement a new approach for analyzing causal and conformal structure in cosmic voids.  
+Operators $D$ and $D'$ are calculated from a synthetic radial profile of the Eridanus Supervoid. The methodology is inspired by elastic spacetime formalisms and is entirely model-independent.
+
+---
+
+## 📜 License
+
+This project includes dual licensing:
+- `LICENSE_CC_BY_4.0.txt` – for manuscript and associated research outputs
+- `LICENSE_MIT.txt` – suggested renaming for existing GitHub project license (if applicable)
+
+---
+
+For correspondence:  
+**Leonardo Seriacopi** – `seriacopileonardo@gmail.com`
