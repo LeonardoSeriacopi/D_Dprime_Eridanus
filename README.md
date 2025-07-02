@@ -30,7 +30,6 @@ The figures and results were generated entirely from the scripts provided in thi
 ├── Eridanus_Executed_Protocol    # Scripts used to generate figures and metrics
 ├── Figures                       # Final plots in PDF format (as used in paper)
 ├── Elastic Spacetime Response in Cosmic Voids.pdf
-├── Elastic Spacetime Response in Cosmic Voids.tex
 └── README.md
 ```
 
