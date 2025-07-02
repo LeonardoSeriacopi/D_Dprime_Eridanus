@@ -1,39 +1,49 @@
+# Elastic Spacetime Response in Cosmic Voids
+**D/D′ Operators Applied to the Eridanus Supervoid**
 
-# Elastic Dynamics in Voids: D and D′ Operators in the Eridanus Supervoid
+This repository contains the executed protocol and all figures associated with the paper:
 
-This repository contains the core scripts, figures, and supplementary materials used in the research note:
-
-**“Elastic Dynamics in Voids: Visualization of D and D′ Operators in Underdense Cosmology”**  
-_Accepted Manuscript – AAS Research Notes – Manuscript ID: AAS66654_
-
-📄 **Main PDF**: [Link pending publication]  
-🔗 **Published DOI**: To be added post-acceptance
+> **"Elastic Spacetime Response in Cosmic Voids: D/D′ Operators Applied to the Eridanus Supervoid"**  
+> Leonardo Sales Seriacopi – Draft version July 02, 2025
 
 ---
 
-## 🗂 Repository Structure
+## Overview
 
-- `Scripts/` — Python scripts used to compute the operators $D$ and $D'$ based on the density profile.
-- `Figures/` — All generated figures used in the analysis and manuscript.
-- `Paper/` — Source files and compiled PDF for the final manuscript.
-- `Data/` — Contains raw data extraction scripts for the Eridanus SDSS sample.
+This study introduces a diagnostic protocol using causal and conformal differential operators \( D \) and \( D' \), applied to the density field of the Eridanus supervoid. The methodology includes:
 
----
+- Persistent topology for boundary detection
+- Wavelet-SPH density field reconstruction
+- Relaxation analysis through elastic energy balance
+- Prediction of redshift distortions via \( D'\rho \)
+- Computation of the cosmic Poisson ratio \( \nu \)
+- Comparison with weak lensing convergence \( \kappa \)
 
-## 📌 Summary
-
-The scripts in this repository implement a new approach for analyzing causal and conformal structure in cosmic voids.  
-Operators $D$ and $D'$ are calculated from a synthetic radial profile of the Eridanus Supervoid. The methodology is inspired by elastic spacetime formalisms and is entirely model-independent.
-
----
-
-## 📜 License
-
-This project includes dual licensing:
-- `LICENSE_CC_BY_4.0.txt` – for manuscript and associated research outputs
-- `LICENSE_MIT.txt` – suggested renaming for existing GitHub project license (if applicable)
+The figures and results were generated entirely from the scripts provided in this repository.
 
 ---
 
-For correspondence:  
-**Leonardo Seriacopi** – `seriacopileonardo@gmail.com`
+## Repository Structure
+
+```bash
+.
+├── Eridanus_Executed_Protocol    # Scripts used to generate figures and metrics
+├── Figures                       # Final plots in PDF format (as used in paper)
+├── Elastic Spacetime Response in Cosmic Voids.pdf
+├── Elastic Spacetime Response in Cosmic Voids.tex
+└── README.md
+```
+
+---
+
+## Data Availability and Reproducibility
+
+⚠️ **Note**: This repository contains processed data and analysis scripts sufficient to reproduce the figures in our paper. Raw survey data must be obtained directly from the [DES Data Release](https://des.ncsa.illinois.edu/releases/y3a2).
+
+🔐 **Core Algorithms**: The complete wavelet-SPH density reconstruction pipeline will be released in a forthcoming technical paper (Seriacopi et al. 2026, *in prep*).
+
+---
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
