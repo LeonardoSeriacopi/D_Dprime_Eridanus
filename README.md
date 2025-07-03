@@ -28,18 +28,15 @@ The figures and results were generated entirely from the scripts provided in thi
 ```bash
 .
 ├── Eridanus_Executed_Protocol    # Scripts used to generate figures and metrics
+├── Eridanus_Scripts_Source    
 ├── Figures                       # Final plots in PDF format (as used in paper)
 ├── Elastic Spacetime Response in Cosmic Voids.pdf
 └── README.md
 ```
 
----
-
 ## Data Availability and Reproducibility
 
 ⚠️ **Note**: This repository contains processed data and analysis scripts sufficient to reproduce the figures in our paper. Raw survey data must be obtained directly from the [DES Data Release](https://des.ncsa.illinois.edu/releases/y3a2).
-
-🔐 **Core Algorithms**: The complete wavelet-SPH density reconstruction pipeline will be released in a forthcoming technical paper (Seriacopi et al. 2026, *in prep*).
 
 ---
 
